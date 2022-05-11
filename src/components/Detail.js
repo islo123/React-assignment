@@ -19,8 +19,8 @@ export default function Detail() {
                         <h2>Name: <span>{brewery.name}</span></h2>
                         <h2>Type: <span>{brewery.brewery_type}</span></h2>
                         <h2>Street: <span>{brewery.street===null? "Empty...": brewery.street }</span></h2>
-                        <h2>City: <span></span>{brewery.city}</h2>
-                        <h2>State: <span></span>{brewery.state}</h2>
+                        <h2>City: <span>{brewery.city}</span></h2>
+                        <h2>State: <span>{brewery.state}</span></h2>
                         <h2>Postal Code: <span>{brewery.postal_code}</span></h2>
                         <h2>country: <span>{brewery.country}</span></h2>
                         <h2>Phone: <span>{brewery.phone}</span></h2>

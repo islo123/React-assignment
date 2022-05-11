@@ -29,7 +29,7 @@ export default function Search() {
     };
 
   return (
-    <div>
+    <div style={{margin: "5px"}}>
         <input placeholder='Search...' onChange={handleFilterChange}/>
         {
             filterData.length !== 0 && (

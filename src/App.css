@@ -1,11 +1,10 @@
 body {
-  background-color: aqua;
+  background-color: #FCF6F5FF;
 }
-
 .container {
   max-width: 800px;
   margin: 0 auto;
-  background-color: blue;
+  background-color: #FCF6F5FF;
   border-radius: 10px;
 }
 
@@ -22,7 +21,7 @@ body {
   flex: 1 0 27%;
   padding: 15px;
   margin: 5px;
-  background-color: aqua;
+  background-color: #EDC2D8FF;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -30,6 +29,7 @@ body {
 .detail-modal {
   display: flex;
   justify-content: center;
+  background-color: #8ABAD3FF;
 }
 h3 {
   display: flex;
@@ -37,18 +37,19 @@ h3 {
   text-transform: capitalize;
 }
 h2 {
-  color: bisque;
+  color: black;
+  font-weight: 100;
   text-transform: capitalize;
   padding: 15px;
   font-size: medium;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 span {
-  color: aliceblue;
+  font-weight: bolder;
 }
 .card-btn {
   width: 100%;
-  background-color: aliceblue;
+  background-color: #8ABAD3FF;
   text-align: center;
   margin-top: auto;
   cursor: pointer;
@@ -67,11 +68,11 @@ input{
 }
 
 .search-brewery-result {
-  width: 50%;
+  width: 100%;
   height: 200px;
   overflow: hidden;
   overflow-y: auto;
-  background-color: #4d94ff;
+  background-color: #8ABAD3FF;
   border-radius: 8px;
 }
 
