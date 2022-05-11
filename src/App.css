@@ -89,7 +89,7 @@ h5 {
 }
 
 .search-brewery:hover {
-  background-color: darkgray;
+  background-color: #EDC2D8FF;
 }
 
 .search-brewery-result::-webkit-scrollbar {
