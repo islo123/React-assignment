@@ -23,7 +23,6 @@ export default function Search() {
 
     const navigate = useNavigate(); //uudemassa react router versiossa useHistory() on korvatu useNavigate()
     
-
     const navigateToDetailCard = (id) => {
         navigate(`/detail/${id}`) 
     };
